@@ -5,19 +5,19 @@ gcloud alpha compute tpus tpu-vm create node-2 --zone=us-central1-a --accelerato
 sleep 5
 gcloud alpha compute tpus tpu-vm create node-3 --zone=us-central1-b --accelerator-type=v2-8 --version=v2-alpha
 sleep 5
-gcloud alpha compute tpus tpu-vm create node-4 --zone=europe-west4-a --accelerator-type=v3-8 --version=v2-alpha
+gcloud alpha compute tpus tpu-vm create node-4 --zone=europe-west4-a --accelerator-type=v2-8 --version=v2-alpha
 sleep 5
 gcloud alpha compute tpus tpu-vm create node-5 --zone=us-central1-c --accelerator-type=v2-8 --version=v2-alpha
 sleep 5
 gcloud alpha compute tpus tpu-vm create node-6 --zone=us-central1-b --accelerator-type=v2-8 --version=v2-alpha
 sleep 5
-gcloud alpha compute tpus tpu-vm create node-7 --zone=europe-west4-a --accelerator-type=v3-8 --version=v2-alpha
+gcloud alpha compute tpus tpu-vm create node-7 --zone=europe-west4-a --accelerator-type=v2-8 --version=v2-alpha
 sleep 5
 gcloud alpha compute tpus tpu-vm create node-8 --zone=us-central1-c --accelerator-type=v2-8 --version=v2-alpha
 sleep 5
 gcloud alpha compute tpus tpu-vm create node-9 --zone=us-central1-b --accelerator-type=v2-8 --version=v2-alpha
 sleep 5
-gcloud alpha compute tpus tpu-vm create node-10 --zone=europe-west4-a --accelerator-type=v3-8 --version=v2-alpha
+gcloud alpha compute tpus tpu-vm create node-10 --zone=europe-west4-a --accelerator-type=v2-8 --version=v2-alpha
 sleep 5
 gcloud alpha compute tpus tpu-vm create node-11 --zone=us-central1-c --accelerator-type=v2-8 --version=v2-alpha
 sleep 5
